@@ -43,6 +43,6 @@ class Donor:
 shelve = shelve.open('Donor')
 
 def create_donor(donor):
-     shelve[donor.gety_email()] = donor
+     shelve[donor.get_email()] = donor
 
 
