@@ -4,7 +4,7 @@ from persistence import *
 app = Flask(__name__)
 
 @app.route('/Donor', methods=['GET', 'POST'])
-def Donor():
+def donor():
     if request.method == "POST":
 
         item = request.form['Item']
